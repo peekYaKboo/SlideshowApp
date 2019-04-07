@@ -72,6 +72,12 @@ class ViewController: UIViewController {
     @IBAction func unwind(_ segue: UIStoryboardSegue){
     }
     @IBAction func onTapImage(_ sender: UITapGestureRecognizer) {
+        if timer != nil {
+            timer.invalidate()
+            timer = nil
+            next_button.isEnabled = true
+            prev_button.isEnabled = true
+        }
         performSegue(withIdentifier: "zoom", sender: nil)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
