@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B634774F225A047400DC3360 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B634774E225A047400DC3360 /* ZoomViewController.swift */; };
 		B6DD64C82259E1BB00315769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD64C72259E1BB00315769 /* AppDelegate.swift */; };
 		B6DD64CA2259E1BB00315769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD64C92259E1BB00315769 /* ViewController.swift */; };
 		B6DD64CD2259E1BB00315769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64CB2259E1BB00315769 /* Main.storyboard */; };
 		B6DD64CF2259E1BD00315769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64CE2259E1BD00315769 /* Assets.xcassets */; };
 		B6DD64D22259E1BD00315769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64D02259E1BD00315769 /* LaunchScreen.storyboard */; };
+		B6DD64DA2259E20400315769 /* UNADJUSTEDNONRAW_thumb_1b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64D92259E20400315769 /* UNADJUSTEDNONRAW_thumb_1b.jpg */; };
+		B6DD64DC2259E21000315769 /* UNADJUSTEDNONRAW_thumb_1f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64DB2259E21000315769 /* UNADJUSTEDNONRAW_thumb_1f.jpg */; };
+		B6DD64E22259E2A000315769 /* UNADJUSTEDNONRAW_thumb_5c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64E12259E2A000315769 /* UNADJUSTEDNONRAW_thumb_5c.jpg */; };
+		B6DD64E42259E2B400315769 /* UNADJUSTEDNONRAW_thumb_5e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64E32259E2B400315769 /* UNADJUSTEDNONRAW_thumb_5e.jpg */; };
+		B6DD64E62259E2BC00315769 /* UNADJUSTEDNONRAW_thumb_205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64E52259E2BC00315769 /* UNADJUSTEDNONRAW_thumb_205.jpg */; };
+		B6DD64E82259E2C400315769 /* UNADJUSTEDNONRAW_thumb_206.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6DD64E72259E2C400315769 /* UNADJUSTEDNONRAW_thumb_206.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B634774E225A047400DC3360 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		B6DD64C42259E1BB00315769 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DD64C72259E1BB00315769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6DD64C92259E1BB00315769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		B6DD64CE2259E1BD00315769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6DD64D12259E1BD00315769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6DD64D32259E1BD00315769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DD64D92259E20400315769 /* UNADJUSTEDNONRAW_thumb_1b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_1b.jpg; sourceTree = "<group>"; };
+		B6DD64DB2259E21000315769 /* UNADJUSTEDNONRAW_thumb_1f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_1f.jpg; sourceTree = "<group>"; };
+		B6DD64E12259E2A000315769 /* UNADJUSTEDNONRAW_thumb_5c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_5c.jpg; sourceTree = "<group>"; };
+		B6DD64E32259E2B400315769 /* UNADJUSTEDNONRAW_thumb_5e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_5e.jpg; sourceTree = "<group>"; };
+		B6DD64E52259E2BC00315769 /* UNADJUSTEDNONRAW_thumb_205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_205.jpg; sourceTree = "<group>"; };
+		B6DD64E72259E2C400315769 /* UNADJUSTEDNONRAW_thumb_206.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_206.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +70,17 @@
 			children = (
 				B6DD64C72259E1BB00315769 /* AppDelegate.swift */,
 				B6DD64C92259E1BB00315769 /* ViewController.swift */,
+				B6DD64DB2259E21000315769 /* UNADJUSTEDNONRAW_thumb_1f.jpg */,
+				B6DD64D92259E20400315769 /* UNADJUSTEDNONRAW_thumb_1b.jpg */,
+				B6DD64E12259E2A000315769 /* UNADJUSTEDNONRAW_thumb_5c.jpg */,
+				B6DD64E32259E2B400315769 /* UNADJUSTEDNONRAW_thumb_5e.jpg */,
+				B6DD64E52259E2BC00315769 /* UNADJUSTEDNONRAW_thumb_205.jpg */,
+				B6DD64E72259E2C400315769 /* UNADJUSTEDNONRAW_thumb_206.jpg */,
 				B6DD64CB2259E1BB00315769 /* Main.storyboard */,
 				B6DD64CE2259E1BD00315769 /* Assets.xcassets */,
 				B6DD64D02259E1BD00315769 /* LaunchScreen.storyboard */,
 				B6DD64D32259E1BD00315769 /* Info.plist */,
+				B634774E225A047400DC3360 /* ZoomViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -123,7 +144,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6DD64D22259E1BD00315769 /* LaunchScreen.storyboard in Resources */,
+				B6DD64DA2259E20400315769 /* UNADJUSTEDNONRAW_thumb_1b.jpg in Resources */,
+				B6DD64DC2259E21000315769 /* UNADJUSTEDNONRAW_thumb_1f.jpg in Resources */,
+				B6DD64E82259E2C400315769 /* UNADJUSTEDNONRAW_thumb_206.jpg in Resources */,
 				B6DD64CF2259E1BD00315769 /* Assets.xcassets in Resources */,
+				B6DD64E42259E2B400315769 /* UNADJUSTEDNONRAW_thumb_5e.jpg in Resources */,
+				B6DD64E22259E2A000315769 /* UNADJUSTEDNONRAW_thumb_5c.jpg in Resources */,
+				B6DD64E62259E2BC00315769 /* UNADJUSTEDNONRAW_thumb_205.jpg in Resources */,
 				B6DD64CD2259E1BB00315769 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6DD64CA2259E1BB00315769 /* ViewController.swift in Sources */,
+				B634774F225A047400DC3360 /* ZoomViewController.swift in Sources */,
 				B6DD64C82259E1BB00315769 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ND7Y7Z95U;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ND7Y7Z95U;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
